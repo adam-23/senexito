@@ -1,0 +1,33 @@
+-Download Retropie for Rpi3
+-Unzip
+-Flash to micro SD
+-plug in to pi, plug into screen
+-Install packages on retropie from internet connection using either wifi or ethernet
+
+Get flash drive formatted to NTFS or FAT
+Create empty folder in home folder labeled 'retropie'
+Plug USB into pi, wait 30 seconds, unplug
+Add ROMS and BIOS files to correct corresponding folders
+Plug back in, wait for 30 more seconds, unplug
+Restart Senexito
+Play, enjoy :D
+
+
+
+GBA
+---------------
+Roms
+-Firered
+-FFTA
+-FF1/2
+-FF4
+-FF5
+-FF6
+-Emerald
+-Minish Cap
+-Nightmare in Dreamland
+-Red Rescue Team
+-M/L Superstar Saga
+-Golden Sun
+
+**You need to add the gba_bios.bin file to BIOS otherwise games cannot be saved!**  
