@@ -1,0 +1,75 @@
+Senexito, A Retro Gaming Device
+
+
+(Hardware)
+----------
+
+Requirements:
+
+-input device (keyboard or USB controller)
+-flash drive
+-MicroSD card (8GBor higher)
+-Raspberry Pi3
+-HDMI cable and monitor
+-external computer for initial installation and game downloading
+-internet connection
+-5V, 2.4A Power Supply
+
+
+(Installation)
+--------------
+
+The install files can be downloaded from retropie.com
+Unzip the downloaded package.
+Flash the package to a microSD card (8GB or higher) using a Linux computer.
+Plug in SD card to bottom of device. 
+Plug in HDMI monitor.
+Plug in power supply.
+Connect device to internet using Wifi or Ethernet using the retropie wifi connector in the menu.
+Navigate to the Retropie settings page and install the retropie packages.
+Load some games and enjoy the system!
+
+
+(Power and Shutdown)
+--------------------
+NEVER unplug until successfully powered off. (This has a chance of destroying the SD card.)
+Always safely shutdown from the main screen. Data loss can happen if not done correctly.
+
+The device requires a 2.4A, 5V (Amp, Volt) output. 
+Less voltage and amperage will result in data loss, and possibly ruin the system. 
+
+
+(Loading Games)
+---------------
+
+On a blank flash drive, make a folder labeled 'retropie'. 
+Insert it into the device and wait for 30 seconds. 
+Inside the 'retropie' folder there will now be subfolders, including ROMs and BIOS.
+The necessary BIOS files go in the BIOS folder. 
+Place ROM files in their respective subfolder in the ROMs folder and save.
+
+Plug the flash drive back into the device, and wait another 30 seconds. 
+The device will now auto load those files from the flash drive into its memory.
+Restart the device, and it will include the new games and files in its storage.
+
+* Make SURE that when you load a game, the appropriate BIOS for that game is in the BIOS file.
+  If it's not, the game will not retain ANY save data after resetting.  
+
+
+(Media Center)
+--------------
+
+This feature is still in progress, sorry!
+
+
+(Keyboard Commands)
+------------------- 
+
+Using a wireless keyboard is recommended. 
+
+Use 'Start' to configure general settings in the main menu.
+Start + Select in a game will bring you back to the main menu.
+Select + 'A' in game will reset the game instantly. 
+
+
+
